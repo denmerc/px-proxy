@@ -1,7 +1,9 @@
-sut:
+debug:
   build: .
+  volumes:
+    - ".:/app"
   ports:
     - "3000:3000"
     - "5858:5858"
-  entrypoint: node --debug=5858 server.js
+  entrypoint: nodemon --debug=5858 server.js
   
