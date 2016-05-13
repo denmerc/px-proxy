@@ -1,5 +1,7 @@
 sut:
   build: .
+  volumes:
+    - ".:/app"
   ports:
     - "3000:3000"
   entrypoint: npm test
