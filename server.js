@@ -91,7 +91,7 @@ var options = {
         }
     }
 };
-
+var redwire = new RedWire(options);
 */
 
 var redwire = new RedWire({
