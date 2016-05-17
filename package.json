@@ -14,6 +14,9 @@
   "dependencies": {
     "express": "^4.13.4",
     "request": "^2.72.0",
-    "redbird": "0.4.14"
+    "redbird": "0.4.14",
+    "http-proxy-middleware": "*",
+    "node-reverse-proxy": "*",
+    "redwire": "*"
   }
 }
