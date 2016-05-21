@@ -1,4 +1,4 @@
-sut:
+test:
   build: .
   volumes:
     - ".:/app"

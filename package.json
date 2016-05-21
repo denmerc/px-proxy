@@ -12,9 +12,7 @@
   "author": "Dennis Mercado",
   "license": "-",
   "dependencies": {
-    "express": "^4.13.4",
-    "redwire": "*",
-    "request": "^2.72.0"
+    "redwire": "*"
   },
   "devDependencies": {}
 }
